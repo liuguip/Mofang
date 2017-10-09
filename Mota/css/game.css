@@ -1,0 +1,370 @@
+/*主体背景*/
+div#game{
+	margin: 0 auto;
+	border: 1px solid white ;
+	height: 700px;
+	width: 1250px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	//background-image: url(../img/mota16_9.png);
+	text-align: center;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+	animation-duration:10s;
+	animation-name: welcome_1;
+}
+div.game_1{
+	background-image: url(../img/mota16_9.png);
+}
+div.game_2{
+	background-image: url(../img/mota_2.jpg);
+}
+/*控件样式*/
+div.start{
+	cursor: pointer;
+	margin: 0 auto;
+	border: 1px solid red;
+	height: 5%;
+	width: 25%;
+	color: red;
+	line-height: 200%;
+	background-color: rgba(0,0,0,0.5);
+}
+div.start:hover{
+	background-color: rgba(0,0,0,1);
+}
+div.start_1{
+	margin-top: 0;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+	animation-duration:10s;
+	animation-name: welcome_2;
+}
+/*左右部分样式*/
+div.left,div.right{
+	float:left;
+	height: 650px;
+	width: 300px;
+	background-image: url(../img/sp.png);
+}
+/*英雄属性样式*/
+div#layer{
+	height: 50px;
+	width: 80%;
+	margin: 50px auto;
+	font-size: 40px;
+	line-height: 50px;
+	color: white;
+	background-color: rgb(102,102,102);
+}
+div#heroMsg{
+	height: 280px;
+	width: 80%;
+	margin: auto;
+	font-size: 40px;
+	line-height: 50px;
+	color: white;
+	background-color: rgb(102,102,102);
+	background-repeat: no-repeat;
+}
+div.heroMsg{
+	height: 14.285%;
+	width: 60%;
+	padding-left: 55px;
+	font-size: 30px;
+	line-height: 39.98px;
+	color: white;
+	background-image: url(../img/heromsg.png);
+	background-repeat: no-repeat;
+}
+div#HP{
+	background-position-y: 6px;
+}
+div#ATK{
+	background-position-y: -33px;
+}
+div#DEF{
+	background-position-y: -72px;
+}
+div#money{
+	background-position-y: -108px;
+}
+
+div#redKey{
+	background-position-y: -155px;
+}
+
+div#blueKey{
+	background-position-y: -200px;
+}
+div#yellowKey{
+	background-position-y: -245px;
+}
+/*地图*/
+div.mid_map{
+	//border: 1px solid red;
+	float: left;
+	height: 650px;
+	width: 650px;
+}
+/*地图格*/
+div.map{
+	float:left;
+	height: 50px;
+	width: 50px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+/*地图元素*/
+/*墙*/
+div.map_0{
+	background-image: url(../img/Wall.png);
+}
+/*地板*/
+div.map_1{
+	background-image: url(../img/All.png);
+}
+/*上楼*/
+div.map_2{
+	background-image: url(../img/up_floor.png);
+}
+/*下楼*/
+div.map_3{
+	background-image: url(../img/down_floor.png);
+}
+/*黄门*/
+div.map_4{
+	background-image: url(../img/yellowDoor.png);
+}
+/*蓝门*/
+div.map_5{
+	background-image: url(../img/blueDoor.png);
+}
+/*红门*/
+div.map_6{
+	background-image: url(../img/huaji.ico);
+}
+/*栅栏*/
+div.map_7{
+	background-image: url(../img/fence.png);
+}
+
+/*道具*/
+/*红钥匙*/
+div.map_11{
+	//background-image: url(../img/yellowKey.png);
+}
+/*蓝钥匙*/
+div.map_12{
+	background-image: url(../img/blueKey.png);
+}
+/*黄钥匙*/
+div.map_13{
+	background-image: url(../img/yellowKey.png);
+}
+/*红血瓶*/
+div.map_14{
+	background-image: url(../img/redBrood.png);
+}
+/*蓝血瓶*/
+div.map_15{
+	background-image:url(../img/blueBrood.png);
+}
+/*红宝石*/
+div.map_16{
+	background-image:url(../img/attackStone.png);
+}
+/*蓝宝石*/
+div.map_17{
+	background-image:url(../img/defenseStone.png);
+}
+/*跳楼杖*/
+div.map_18{
+	background-image: url(../img/jumpStory.png);
+}
+/*幸运金币*/
+div.map_19{
+	background-image: url(../img/smilingFace.png);
+}
+/*圣剑*/
+div.map_20{
+	background-image:url(../img/holySword.png);
+}
+/*圣盾*/
+div.map_21{
+	background-image:url(../img/holyShield.png);
+}
+/*虚拟墙*/
+div.map_22{
+	background-image:url(../img/Wall.png);
+}
+/**/
+
+
+/*怪物*/
+
+/*绿史莱姆*/
+div.map_50{
+	background-image: url(../img/greenSlime.png);
+}
+div.map_50_1{
+	background-image: url(../img/greenSlime1.png);
+}
+/*红史莱姆*/
+div.map_51{
+	background-image: url(../img/redSlime.png);
+}
+div.map_51_1{
+	background-image: url(../img/redSlime1.png);
+}
+/*骷髅人*/
+div.map_52{
+	background-image: url(../img/skull.png);
+}
+div.map_52_1{
+	background-image: url(../img/skull1.png);
+}
+/*骷髅士兵*/
+div.map_53{
+	background-image: url(../img/skullSoldier.png);
+}
+div.map_53_1{
+	background-image: url(../img/skullSoldier1.png);
+}
+/*小蝙蝠*/
+div.map_54{
+	background-image: url(../img/smallBet.png);
+}
+div.map_54_1{
+	background-image: url(../img/smallBet1.png);
+}
+/*初级法师*/
+div.map_55{
+	background-image: url(../img/juniorMage.png);
+}
+div.map_55_1{
+	background-image: url(../img/juniorMage1.png);
+}
+/*中级守卫*/
+div.map_56{
+	background-image: url(../img/imtermediate_guard.png);
+}
+div.map_56_1{
+	background-image: url(../img/imtermediate_guard1.png);
+}
+
+
+/*商人*/
+div.map_100{
+	background-image:url(../img/businessman.png);
+}
+div.map_100_1{
+	background-image:url(../img/businessman1.png);
+}
+/*智者*/
+div.map_101{
+	background-image: url(../img/sage.png);
+}
+div.map_101_1{
+	background-image: url(../img/sage1.png);
+}
+/*小偷*/
+div.map_102{
+	background-image: url(../img/thief.png);
+}
+div.map_102_1{
+	background-image: url(../img/thief1.png);
+}
+/*剧情*/
+div.map_150{
+	background-image: url(../img/All.png);
+}
+/*英雄*/
+div.map_520{
+	background-image:url(../img/huaji.jpg);
+}
+div.map_520_1{
+	background-image:url(../img/huaji_1.jpg);
+}
+/*魔王守卫*/
+div.map_998{
+	background-image:url(../img/bossguard.png);
+}
+/*魔王*/
+div.map_999{
+	background-image: url(../img/boss.png);
+}
+
+
+div.map_black{
+	background-image: url(../img/author.ico);
+}
+
+
+div#_text_{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	line-height: 100px;	
+	color: red;
+}
+
+div#prop{
+	background-color: rgb(102,102,102);
+	width: 100%;
+	height: 200px;
+}
+
+div.bottom{
+	height: 50px;
+	width: 100%;
+	color:white;
+	font-size: 25px;
+	line-height: 50px;;
+	float: left;
+	background-color: rgb(102,102,102);
+}
+
+
+div#cl_1{
+	position: absolute;
+	height: 600px;
+	width: 800px;
+	top:10%;
+	left:30%;
+	background-color: rgba(100,100,100,0.5);
+}
+
+div.fightinghero{
+	height: 200px;
+	width: 200px;
+	background-image: url(../img/fighting.gif);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 50px auto;
+}
+
+
+.music{
+	margin: 100px auto;
+	font-size: 20px;
+}
+
+
+
+
+
+@keyframes welcome_1{
+	from {background-position: 0 -700px; }
+    to {background-position: 0 0;}
+}
+
+@keyframes welcome_2{
+	from {margin-top: 0; }
+    to {margin-top: 20%;}
+}
+
+
+
+
